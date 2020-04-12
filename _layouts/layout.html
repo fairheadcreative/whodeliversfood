@@ -16,8 +16,21 @@
 	<meta name="twitter:card" content="summary"/>
 	<meta name="twitter:description" content="{{ site.description }}"/>
 	<meta name="twitter:title" content="{{ site.title }}"/>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 {{ content }}
 <footer><p>Lovingly created by hungry Brits on the <a href="https://fairheadcreative.com" title="Creative Web Design UK">Fairhead Creative</a> team, a creative studio for companies with a cause.</p></footer>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
+</html>
