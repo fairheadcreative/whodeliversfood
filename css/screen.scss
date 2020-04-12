@@ -1,0 +1,75 @@
+---
+---
+@import 'normalize';
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400);
+
+body {
+  font-family: 'Lato', sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #252A31;
+
+}
+
+header {
+  text-align: center;
+  margin: 0 0 3em;
+
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 .15em;
+
+    @media screen and (min-width: 600px) {
+      font-size: 3em;
+    }
+
+    span {
+      display: block;
+      font-size: 2em;
+    }
+  }
+
+  p {
+    font-size: 1em;
+    letter-spacing: -0.015em;
+    line-height: 1.4;
+
+    @media screen and (min-width: 600px) {
+      font-size: 1.2em;
+    }
+  }
+}
+
+h2 {
+  margin: 2em 0 0.5em;
+}
+
+h3 {
+  margin: 0;
+}
+
+small {
+
+}
+
+article {
+  background: #F7F6F6;
+  border: 1px solid #E3DFDF;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1em;
+
+  a {
+    color: #3C9AD6;
+  }
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  font-size: .875em;
+  color: #757C86;
+  a { color: #757C86; }
+}
