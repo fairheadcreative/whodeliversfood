@@ -1,16 +1,17 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  repo: fairheadcreative/whodeliversfood
+  branch: master
   media_folder: "uploads"
-collections:
-  - label: "Posts"
-    name: "posts"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Source URL", name: "source", widget: "string"}
-      - {label: "Type", name: "type", widget: "string"}
-media_library:
-  name: uploadcare
+  collections:
+    - label: "Posts"
+      name: "posts"
+      folder: "_posts"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Source URL", name: "source", widget: "string"}
+        - {label: "Type", name: "type", widget: "string"}
+  media_library:
+    name: uploadcare
