@@ -180,6 +180,11 @@ footer {
   font-size: .875em;
   color: #757C86;
   a { color: #757C86; }
+
+  small {
+    margin-top: 1em;
+    display: inline-block;
+  }
 }
 
 .twitter,
