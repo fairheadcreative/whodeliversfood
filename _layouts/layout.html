@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<link media="all" href="/css/screen.css" rel="stylesheet"/>
-	<title>{{ page.title }} | {{ site.title }}</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta type="description" content="{{ site.description }}">
-
-	<meta property="og:locale" content="en_US"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="{{ page.title }} | {{ site.title }}"/>
-	<meta property="og:description" content="{{ site.description }}"/>
-	<meta property="og:url" content="{{ site.baseurl }}/{{ page.url }}"/>
-	<meta property="og:site_name" content="Fairhead Creative"/>
-	<meta name="twitter:card" content="summary"/>
-	<meta name="twitter:description" content="{{ site.description }}"/>
-	<meta name="twitter:title" content="{{ site.title }}"/>
+  <link media="all" href="/css/screen.css" rel="stylesheet"/>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta type="description" content="{{ site.description }}">
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:url" content="{{ site.baseurl }}/{{ page.url }}"/>
+  <meta property="og:site_name" content="Fairhead Creative"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:description" content="{{ site.description }}"/>
+  <meta name="twitter:title" content="{{ site.title }}"/>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-{{ content }}
-<footer><p>Lovingly created by hungry Brits on the <a href="https://fairheadcreative.com" title="Creative Web Design UK">Fairhead Creative</a> team, a creative studio for companies with a cause.</p></footer>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+  {{ content }}
+  <footer><p>Lovingly created by hungry Brits on the <a href="https://fairheadcreative.com" title="Creative Web Design UK">Fairhead Creative</a> team, a creative studio for companies with a cause.</p></footer>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
