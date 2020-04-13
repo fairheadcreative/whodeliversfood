@@ -88,5 +88,5 @@ title: Directory
 
 <article class="missed">
   <h3>Did we miss you?</h3>
-  <p>If you're delivering food in England and Wales right now, and we haven't mentioned you, then <a href="mailto:hello+food@fairheadcreative.com">please get in touch with your details</a> and let us know so we can add you to the list.</p>
+  <p>If you're delivering food in England and Wales right now, and we haven't mentioned you, then <a href="mailto:hello+food@fairheadcreative.com">email us</a> or tweet <a href="https://twitter.com/adamfairhead/">@adamfairhead</a> with your details and let us know so we can add you to the list.</p>
 </article>
