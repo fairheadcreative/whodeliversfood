@@ -181,3 +181,20 @@ footer {
   color: #757C86;
   a { color: #757C86; }
 }
+
+.twitter,
+.facebook,
+.linkedin,
+.whatsapp {
+  color: #0c8fe2;
+  display: inline-block;
+  padding: 10px 10px 6px;
+  background: #d6efff;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 15px 2px 0;
+  &:hover {
+    background: #0c8fe2;
+    color: #fff;
+  }
+}

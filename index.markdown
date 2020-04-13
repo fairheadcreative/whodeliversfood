@@ -9,6 +9,14 @@ title: Directory
   <p>Shoot. You didn't get a slot today. That's okay, try another food delivery service!</p>
 
   <p class="detail">Thank you for being smart enough to be trying to stay at home during the global pandemic (you little wonder, you). This website is purely for your information, to help you find out where you can get food deliveries at home. To the best of our knowledge, you can get food deliveries from these companies at the moment - no guarantees though. We're just as hungry as you, and doing our best to share the options we're aware of.</p>
+
+  <a class="twitter" href="http://twitter.com/share?text=A Directory Of Everyone Who Delivers Food In The UK:&url=https://whodeliversfood.co.uk&hashtags=covid19">Share on Twitter</a>
+
+  <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//whodeliversfood.co.uk">Share on Facebook</a>
+
+  <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//whodeliversfood.co.uk&title=Who%20Delivers%20Food%20In%20The%20UK?&summary=A%20directory%20of%20everyone%20who%20delivers%20food%20in%20the%20UK!&source=">Share on LinkedIn</a>
+
+  <a class="whatsapp" href="whatsapp://send?text=A Directory Of Everyone Who Delivers Food In The UK: https://whodeliversfood.co.uk" data-action="share/whatsapp/share">Share via WhatsApp</a>
 </header>
 
 <h2>Recipe Boxes & Meal Delivery</h2>
