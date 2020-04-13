@@ -7,6 +7,8 @@ title: Directory
 <header>
   <h1><span>🚚💨</span>Who Delivers Food In The UK?</h1>
   <p>Shoot. You didn't get a slot today. That's okay, try another food delivery service!</p>
+
+  <p class="detail">Thank you for being smart enough to be trying to stay at home during the global pandemic (you little wonder, you). This website is purely for your information, to help you find out where you can get food deliveries at home. To the best of our knowledge, you can get food deliveries from these companies at the moment - no guarantees though. We're just as hungry as you, and doing our best to share the options we're aware of.</p>
 </header>
 
 <h2>Recipe Boxes & Meal Delivery</h2>
@@ -68,3 +70,15 @@ title: Directory
 </article>
 {% endif %}
 {% endfor %}
+
+
+<h2>Hints and tips</h2>
+<p>Book a delivery slot before filling up your basket - especially with the supermarkets. Otherwise you'll be bitterly disappointed. (Ever had the warm, fuzzy feeling that you were soon to receive a delivery of chocolate hobnobs, only to be informed minutes later that they are NEVER COMING? Sad times, my friend).</p>
+<p>When you do manage to get a delivery slot for a supermarket, be prepared for a good 50% of your order to be subbed out with totally irrational alternatives. It's a grocery lottery: sometimes you win, sometimes you get coconut and lime ice cream. Be grateful all the same, the pickers and packers are doing their best.</p>
+<p>Don't buy more than you need - unless it's tins of beans. Have as many of those as you want. They keep for ages and no one else wants any more cluttering up their cupboards.</p>
+<p>Wave cheerily at your delivery driver from a respectful distance to confirm receipt of your package or takeaway. You could even doff your imaginary cap in their general direction. Consider this your way of thanking them for venturing out into the big, scary world and making the journeys back and forth to keep your belly full.</p>
+
+<article class="missed">
+  <h3>Did we miss you?</h3>
+  <p>If you're delivering food in England and Wales right now, and we haven't mentioned you, then <a href="mailto:hello+food@fairheadcreative.com">please get in touch with your details</a> and let us know so we can add you to the list.</p>
+</article>

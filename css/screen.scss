@@ -159,10 +159,19 @@ article {
   &:nth-child(even) { transform: rotate(-0.25deg); }
 }
 
+.missed {
+  margin-top: 2em;
+}
+
 p {
   color: #727D87;
   margin-bottom: 0;
   line-height: 1.4;
+}
+
+p.detail {
+  font-size: 1em;
+  margin-top: 2.25em;
 }
 
 footer {
