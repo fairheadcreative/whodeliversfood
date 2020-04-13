@@ -1,11 +1,98 @@
 ---
 ---
 @import 'normalize';
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400);
+
+// Font Face
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-extralight-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-extralight-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-extralight-subset.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-light-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-light-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-light-subset.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-regular-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-regular-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-regular-subset.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-medium-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-medium-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-medium-subset.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-bold-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-bold-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-bold-subset.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio Sans';
+  src: url('../fonts/studio-sans/studiosans-extrabold-subset.woff2') format('woff2'),
+       url('../fonts/studio-sans/studiosans-extrabold-subset.zopfli.woff') format('woff'),
+       url('../fonts/studio-sans/studiosans-extrabold-subset.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../fonts/source-code-pro/SourceCodePro-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Solitas Serif';
+  src: url('../fonts/solitas-serif/solitas-serif-regular-subset.woff2') format('woff2'),
+       url('../fonts/solitas-serif/solitas-serif-regular-subset.zopfli.woff') format('woff'),
+       url('../fonts/solitas-serif/solitas-serif-regular-subset.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Solitas Serif';
+  src: url('../fonts/solitas-serif/solitas-serif-book-italic-subset.woff2') format('woff2'),
+       url('../fonts/solitas-serif/solitas-serif-book-italic-subset.zopfli.woff') format('woff'),
+       url('../fonts/solitas-serif/solitas-serif-book-italic-subset.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Solitas Serif';
+  src: url('../fonts/solitas-serif/solitas-serif-bold-subset.woff2') format('woff2'),
+       url('../fonts/solitas-serif/solitas-serif-bold-subset.zopfli.woff') format('woff'),
+       url('../fonts/solitas-serif/solitas-serif-bold-subset.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Studio Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
   max-width: 750px;
   margin: 0 auto;
   padding: 1em;
@@ -15,11 +102,14 @@ body {
 
 header {
   text-align: center;
-  margin: 0 0 3em;
+  margin: 0;
 
   h1 {
     font-size: 1.5em;
-    margin: 0 0 .15em;
+    margin: 1em 0 .15em;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: #050F18;
 
     @media screen and (min-width: 600px) {
       font-size: 3em;
@@ -27,7 +117,7 @@ header {
 
     span {
       display: block;
-      font-size: 2em;
+      font-size: 1.5em;
     }
   }
 
@@ -43,15 +133,15 @@ header {
 }
 
 h2 {
-  margin: 2em 0 0.5em;
+  margin: 2.5em 0 1.25em;
+  padding-top: 2em;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  border-top: 2px solid #eee;
 }
 
 h3 {
   margin: 0;
-}
-
-small {
-
 }
 
 article {
@@ -62,8 +152,18 @@ article {
   margin-bottom: 1em;
 
   a {
-    color: #3C9AD6;
+    color: #232B32;
+    &:hover { color: #3C9AD6; }
   }
+
+  &:nth-child(odd) { transform: rotate(0.25deg); }
+  &:nth-child(even) { transform: rotate(-0.25deg); }
+}
+
+p {
+  color: #727D87;
+  margin-bottom: 0;
+  line-height: 1.4;
 }
 
 footer {

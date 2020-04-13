@@ -5,7 +5,7 @@ title: Directory
 {% assign sorted = site.posts | sort: 'title' %}
 
 <header>
-  <h1><span>🇬🇧🚚</span>Who Delivers Food In The UK?</h1>
+  <h1><span>🚚💨</span>Who Delivers Food In The UK?</h1>
   <p>Shoot. You didn't get a slot today. That's okay, try another food delivery service!</p>
 </header>
 
