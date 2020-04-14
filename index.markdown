@@ -6,7 +6,7 @@ title: Directory
 
 <header>
   <h1><span>🚚💨</span>Who Delivers Food In The UK?</h1>
-  <p>Shoot. You didn't get a slot today. That's okay, try another food delivery service!</p>
+  <p>Didn't get a slot today? That's okay, try another food delivery service!</p>
 
   <p class="detail">Thank you for being smart enough to be trying to stay at home during the global pandemic (you little wonder, you). This website is purely for your information, to help you find out where you can get food deliveries at home. To the best of our knowledge, you can get food deliveries from these companies at the moment - no guarantees though. We're just as hungry as you, and doing our best to share the options we're aware of.</p>
 
